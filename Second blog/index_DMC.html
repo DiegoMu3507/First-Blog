@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Muñoz Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style_DMC.css">
+</head>
+
+<body class="bg-light">
+
+    <header class="bg-dark text-white text-center py-5 shadow-sm">
+        <div class="container">
+            <h1 class="display-1 fw-bold">Diego Muñoz Cisneros</h1>
+            <p class="lead">Ingeniero en computación & coach de basquetbol</p>
+            <nav class="mt-4">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link text-info fw-bold" href="#info">Información</a></li>
+                    <li class="nav-item"><a class="nav-link text-info fw-bold" href="#Intereses">Intereses</a></li>
+                    <li class="nav-item"><a class="nav-link text-info fw-bold" href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div id="carouselExampleCaptions" class="carousel slide shadow-sm" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="height: 400px;">
+                <img src=images_DMC/basquet.jpg class="d-block w-100 h-100 object-fit-cover" alt="CANASTA">
+            </div>
+            <div class="carousel-item" style="height: 400px;">
+                <img src=images_DMC/setup-desarrollador-web.jpg class="d-block w-100 h-100 object-fit-cover" alt="Basquetbol">
+            </div>
+            <div class="carousel-item" style="height: 400px;">
+                <img src=images_DMC/coach.jpg class="d-block w-100 h-100 object-fit-cover" alt="Programación">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+
+    <main class="container my-5">
+        <section id="info" class="mb-5">
+            <h2 class="border-bottom pb-2 mb-4 text-primary">Información personal</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Mis estudios</h3>
+                            <p class="card-text text-muted">Actualmente cursando el sexto semestre en el Centro
+                                Universitario de los Altos. Este es mi primer blog usando HTML.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h3 class="card-title h5">Metas a futuro</h3>
+                            <p class="card-text">Busco puntos de encuentro donde la tecnología potencie y transforme el
+                                deporte.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Intereses" class="mb-5">
+            <h2 class="border-bottom pb-2 mb-4 text-primary">Mis Intereses</h2>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="h5">Basquetbol</h3>
+                    <p>Instructor en escuela primaria-secundaria. Estoy desarrollando un libro de actividades divertidas
+                        para aprender este deporte.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="h5">Tecnologías</h3>
+                    <p>Interesado en nuevas tecnologías para ser competitivo en el mercado bursátil actual.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="bg-white p-4 rounded shadow-sm">
+            <h2 class="text-primary mb-4">Contacto</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre:</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="list-group shadow-sm">
+                        <a href="https://www.instagram.com/diego_mc1507/" target="_blank"
+                            class="list-group-item list-group-item-action">
+                            <i class="bi bi-instagram"></i> <strong>Instagram:</strong> @diego_mu1507
+                        </a>
+
+                        <a href="https://github.com/DiegoMu3507" target="_blank"
+                            class="list-group-item list-group-item-action">
+                            <i class="bi bi-github"></i> <strong>GitHub:</strong> DiegoMu3507
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p class="mb-0">&copy; 2026 Diego Muñoz Cisneros</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
